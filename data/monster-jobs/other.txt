@@ -1,0 +1,64 @@
+Wisconsin State Journal, 1901 Fish Hatchery Road, Madison, WI 53713Affirmative Action/Equal Opportunity Employer/Pre-employment drug testing appliesPI94338362Apply Here
+Position Overview
+Major Responsibilities & Duties:
+Required Skills:
+(6029)Job FunctionQuality (Generalist) Report Previous Next {"Caption":"","Images":[{"Src":"http://images
+monster
+com/mm/xjjsonx/cjt1/Carousel-5
+png","Title":null,"Text":null,"Caption":null},{"Src":"http://images
+monster
+com/mm/xjjsonx/cjt1/Carousel-1
+png","Title":null,"Text":null,"Caption":null},{"Src":"http://images
+monster
+com/mm/xjjsonx/cjt1/Carousel-2
+png","Title":null,"Text":null,"Caption":null},{"Src":"http://images
+monster
+com/mm/xjjsonx/cjt1/Carousel-3
+png","Title":null,"Text":null,"Caption":null},{"Src":"http://images
+monster
+com/mm/xjjsonx/cjt1/Carousel-4
+png","Title":null,"Text":null,"Caption":null}]} ‹ › ×
+BE VITAL in your career
+ Be seen for the talent you bring to your work
+Explore opportunities within the Johnson & Johnson Family of Companies
+Primary LocationUnited States-Massachusetts-RaynhamOrganizationDepuy Orthopaedics
+Inc
+Responsibilities PURPOSE OF POSITION:
+  MAJOR RESPONSIBILITIES:
+EDUCATION, EXPERIENCE, AND SKILLS REQUIRED:
+FINANCIAL BUDGETING, CAPITAL, AND/OR MANPOWER RESPONSIBILITIES:
+None
+OTHER POSITION SPECIFICATIONS:
+Position ID#  76162 # Positions  1 State  CT City  Fairfield Category  Store Associates - Shift Supervisor Store #  10386 Shift 
+This position does not involve, hiring, firing, or disciplining associates or recommending any such action
+Situations surrounding these issues should be brought to the attention of the Store Manager and/or Assistant Store Manager
+  The associate is responsible for the functions below, in addition to other duties as assigned:  
+#LI-POST1Alternate Location
+US-Iowa-Des MoinesRequisition #
+44815 EEO StatementNo Discrimination
+8
+429a , 1133 innovation way , sunnyvale , ca 94089
+\( 'span trackingjobbody a' \)
+each \( function \( i , v \) if \( \( v \)
+attr \( 'href' \) \) var href \( v \)
+attr \( 'href' \)
+tolowercase \( \) if \( href
+match \( http \) \) switch \( true \) case facebook
+test \( href \) \( v \)
+attr \( 'mns rt' , 'nonjob facebook' \) break case linkedin
+test \( href \) \( v \)
+attr \( 'mns rt' , 'nonjob linkedin' \) break case twitter
+com
+test \( href \) \( v \)
+attr \( 'mns rt' , 'nonjob twitter' \) break case plus
+google
+com
+test \( href \) \( v \)
+attr \( 'mns rt' , 'nonjob googleplus' \) break case youtube
+test \( href \) \( v \)
+attr \( 'data track' , 'client social youtube' \) break case http s \? \( a z0 9
+1 ,
+a z 2 , \) \?
+test \( href \) \( v \)
+attr \( 'data track' , 'client link homepage' \) break default \( v \)
+attr \( 'mns rt' , 'jobcustomapplyonline' \) break \)

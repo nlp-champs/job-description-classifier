@@ -1,6 +1,8 @@
 *.npy
 runs/
 
+data/ # have to add this as well; monster data database is far too big for github
+
 # Created by https://www.gitignore.io/api/python,ipythonnotebook
 
 ### Python ###

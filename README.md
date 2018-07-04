@@ -1,3 +1,11 @@
+# NLP Champs Job Description Classifier Backend
+
+To train this model, you need to download the 22,000 jobs data set from Monster from Kaggle: https://www.kaggle.com/PromptCloudHQ/us-jobs-on-monstercom and put it in the `data/` directory in the root of this project.
+
+This repo was originally a fork from yoonkim's CNN_sentance repository: https://github.com/yoonkim/CNN_sentence
+
+The README contents from that repository are as follows:
+
 **[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
 It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
@@ -58,8 +66,6 @@ Train:
 ```bash
 ./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
 ```
-
-Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
 
 
 ## References

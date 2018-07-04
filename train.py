@@ -14,8 +14,22 @@ from tensorflow.contrib import learn
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
-tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
-tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
+
+# from original (plus my own neutral file as a test)
+# tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
+# tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
+# tf.flags.DEFINE_string("neutral_data_file", "./data/rt-polaritydata/rt-polarity.neu", "Data source for the neutral data.")
+
+# for job classification
+tf.flags.DEFINE_string("tasks_data_file", "./data/monster-jobs/tasks_new.txt", "Data source for the tasks snippets.")
+tf.flags.DEFINE_string("culture_data_file", "./data/monster-jobs/culture_new.txt", "Data source for the culture snippets.")
+tf.flags.DEFINE_string("required_data_file", "./data/monster-jobs/required_new.txt", "Data source for the required skill snippets.")
+tf.flags.DEFINE_string("degree_data_file", "./data/monster-jobs/degree_new.txt", "Data source for the degree snippets.")
+tf.flags.DEFINE_string("desired_data_file", "./data/monster-jobs/desired_new.txt", "Data source for the desired skill snippets.")
+tf.flags.DEFINE_string("years_data_file", "./data/monster-jobs/years_new.txt", "Data source for the years snippets.")
+tf.flags.DEFINE_string("benefits_data_file", "./data/monster-jobs/benefits_new.txt", "Data source for the years snippets.")
+tf.flags.DEFINE_string("other_data_file", "./data/monster-jobs/other_new.txt", "Data source for the 'other' snippets.")
+
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
@@ -47,7 +61,10 @@ print("")
 
 # Load data
 print("Loading data...")
-x_text, y = data_helpers.load_data_and_labels(FLAGS.positive_data_file, FLAGS.negative_data_file)
+# x_text, y = data_helpers.load_data_and_labels(FLAGS.positive_data_file, FLAGS.negative_data_file, FLAGS.neutral_data_file)
+
+x_text, y = data_helpers.load_data_and_labels([FLAGS.required_data_file, FLAGS.degree_data_file, FLAGS.years_data_file, FLAGS.desired_data_file, FLAGS.benefits_data_file, FLAGS.culture_data_file, FLAGS.other_data_file])
+
 
 # Build vocabulary
 max_document_length = max([len(x.split(" ")) for x in x_text])
